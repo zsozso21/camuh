@@ -1,9 +1,9 @@
 # camuh
 modeling CAusality in financial textsusing MUlti-Headed transformers
 
-###Token classifier
+### Token classifier
 
-#####Input
+##### Input
 conll format (tab separated file, each line a token) , labels in the 4th column.
 ```
 1       Transat _       E       _       _       _       _       _       _
@@ -111,13 +111,13 @@ optional arguments:
                         tion/hidden_state_attention
 ```
 
-###Sequence classifier
+### Sequence classifier
 
-#####Input
+##### Input
 
 Csv with at least two column, *text* and *label*.
 
-#####Parameters
+##### Parameters
 ```
 usage: train_sequence_classification_cli.py [-h] -t TRAIN_FILE -v
                                             VALIDATION_FILE [-d DEVICE]
